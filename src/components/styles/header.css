@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 75%;
+    padding: 2rem 0rem 0.5rem 0rem;
+    background: var(--background, #282C33);
+    position: relative;
+    margin: 0;
+}
+
+.frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.logo {
+    background-image: url('/src/assets/icons/Logo.svg');
+    width: 1rem;
+    height: 1rem;
+    background-size: 100% 100%;
+}
+
+.frame .nome {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+nav ul {
+    display: inline-flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+}
+
+nav ul li {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+li .hashtag {
+    color: var(--primary, #C778DD);
+    font-family: Fira Code;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
