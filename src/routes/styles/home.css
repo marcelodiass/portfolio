@@ -1,0 +1,91 @@
+.box-intro {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    background-color: #282C33;
+}
+
+.box-intro-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.75rem;
+    align-self: center;
+    max-width: 50%;
+}
+
+.box-intro-1 .elevator-pitch-1 {
+    margin: 0;
+    color: #FFF;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.elevator-pitch-1 .strong {
+    color: #C778DD;
+}
+
+.box-intro-1 .elevator-pitch-2 {
+    color: #ABB2BF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.box-intro-1 .contate-me {
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    align-items: flex-start;
+    border: 1px solid #C778DD;
+    background-color: transparent;
+    font-family: Fira Code;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.box-intro-1 .contate-me:hover {
+    background: rgba(199, 120, 221, 0.20);
+    transition: 0.5s;
+}
+
+.box-intro .imagem-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-perfil .imagem-perfil-foto {
+    background-image: url(src/assets/icons/Logo2.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.imagem-perfil .projeto-atual {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ABB2BF;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    color: #ABB2BF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.projeto-atual .strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.quadrado {
+    color: #C778DD;
+}

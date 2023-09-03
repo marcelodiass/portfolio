@@ -13,9 +13,9 @@ export default function Header() {
                 <nav>
                     <ul>
                         <li><span className="hashtag">#</span>home</li>
-                        <li><span className="hashtag">#</span>works</li>
-                        <li><span className="hashtag">#</span>about-me</li>
-                        <li><span className="hashtag">#</span>contacts</li>
+                        <li><span className="hashtag">#</span>trabalhos</li>
+                        <li><span className="hashtag">#</span>sobre-mim</li>
+                        <li><span className="hashtag">#</span>contato</li>
                     </ul>
                 </nav>
             </header>

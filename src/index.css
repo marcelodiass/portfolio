@@ -4,6 +4,6 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	width: 100vw;
-	background: var(--background, #2b2f37);
+	background: #282C33;
+	font-family: Fira Code;
 }

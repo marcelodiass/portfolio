@@ -50,12 +50,18 @@ nav ul {
 }
 
 nav ul li {
-    color: var(--white, #FFF);
+    color: #ABB2BF;
     font-family: Fira Code;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+nav ul li:hover {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 li .hashtag {
